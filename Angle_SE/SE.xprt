@@ -8,13 +8,13 @@
  <hscrollbar>'1'</hscrollbar>
  <visible>'1'</visible>
  <timer>'200'</timer>
- <left>'44'</left>
- <top>'232'</top>
- <right>'963'</right>
- <bottom>'774'</bottom>
- <edit_left>'347'</edit_left>
+ <left>'69'</left>
+ <top>'115'</top>
+ <right>'856'</right>
+ <bottom>'742'</bottom>
+ <edit_left>'346'</edit_left>
  <edit_top>'2'</edit_top>
- <edit_right>'527'</edit_right>
+ <edit_right>'526'</edit_right>
  <edit_bottom>'24'</edit_bottom>
  <layer_left>'11'</layer_left>
  <layer_top>'2'</layer_top>
@@ -162,7 +162,7 @@
      <caption>'Конечное время расчёта'</caption>
      <type>'0'</type>
      <mode>'1'</mode>
-     <value>'100000'</value>
+     <value>'1.5'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script>'EXPANDED'#13#10'GROUP Основные параметры'#13#10</script>
@@ -919,12 +919,12 @@
   <name>'C:\Users\Vika\Documents\SimInTech\RoboArm\Angle_SE\SE.xprt'</name>
   <script></script>
   <visible>'1'</visible>
-  <x>'273.895676284643'</x>
-  <y>'27.8019650585667'</y>
-  <width>'919'</width>
-  <height>'542'</height>
-  <scalex>'0.931381984588718'</scalex>
-  <scaley>'0.931381984588718'</scaley>
+  <x>'86.8090170194535'</x>
+  <y>'103.488478804851'</y>
+  <width>'787'</width>
+  <height>'627'</height>
+  <scalex>'0.931381984588733'</scalex>
+  <scaley>'0.931381984588733'</scaley>
   <angle>'0'</angle>
   <backcolor>'16777215'</backcolor>
   <transparent>'0'</transparent>
@@ -3144,7 +3144,7 @@
    <visuallayer>'1'</visuallayer>
    <points>
     <type>'26'</type>
-    <value>'[(456 , 304),(488 , 304),(456 , 296),(456 , 312)]'</value>
+    <value>'[(476 , 304),(528 , 304),(476 , 296),(476 , 312)]'</value>
    </points>
    <color>'16777215'</color>
    <visual_props>
@@ -3213,7 +3213,7 @@
      <caption>'Координаты точек'</caption>
      <type>'26'</type>
      <mode>'2'</mode>
-     <value>'[(456 , 304),(488 , 304),(456 , 296),(456 , 312)]'</value>
+     <value>'[(476 , 304),(528 , 304),(476 , 296),(476 , 312)]'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -3356,7 +3356,7 @@
      <caption>'Индекс блока'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'158'</value>
+     <value>'160'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -3366,7 +3366,7 @@
      <caption>'UID'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'158'</value>
+     <value>'160'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -3426,7 +3426,7 @@
      <caption>'Ширина'</caption>
      <type>'0'</type>
      <mode>'2'</mode>
-     <value>'64'</value>
+     <value>'104'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -3646,8 +3646,8 @@
    <helpfile></helpfile>
    <ownerfilter></ownerfilter>
    <paramfile></paramfile>
-   <uid>'158'</uid>
-   <indexstr>'158'</indexstr>
+   <uid>'160'</uid>
+   <indexstr>'160'</indexstr>
    <custom_props>
     <data>
      <name>'signals'</name>
@@ -3767,7 +3767,7 @@
      <angbyline>'0'</angbyline>
     </port>
    </ports>
-   <width>'64'</width>
+   <width>'104'</width>
    <height>'16'</height>
    <angle>'0'</angle>
    <blockimage>
@@ -3775,7 +3775,7 @@
      <name>'Container'</name>
      <script>'initialization'#13#10' var l:integer; '#13#10' l = length(signals);'#13#10' if (l = 0) or (l '#62' n_symb) then Text.Text = "signal" else Text.Text = signals;'#13#10'end;'#13#10</script>
      <visible>'1'</visible>
-     <x>'456'</x>
+     <x>'476'</x>
      <y>'304'</y>
      <width>'64'</width>
      <height>'16'</height>
@@ -4187,7 +4187,7 @@
    <visuallayer>'1'</visuallayer>
    <points>
     <type>'26'</type>
-    <value>'[(456 , 212),(496 , 212),(456 , 208),(456 , 220)]'</value>
+    <value>'[(484 , 216),(544 , 216),(484 , 208),(484 , 232)]'</value>
    </points>
    <color>'16777215'</color>
    <visual_props>
@@ -4256,7 +4256,7 @@
      <caption>'Координаты точек'</caption>
      <type>'26'</type>
      <mode>'2'</mode>
-     <value>'[(456 , 212),(496 , 212),(456 , 208),(456 , 220)]'</value>
+     <value>'[(484 , 216),(544 , 216),(484 , 208),(484 , 232)]'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -4399,7 +4399,7 @@
      <caption>'Индекс блока'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'159'</value>
+     <value>'161'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -4409,7 +4409,7 @@
      <caption>'UID'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'159'</value>
+     <value>'161'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -4469,7 +4469,7 @@
      <caption>'Ширина'</caption>
      <type>'0'</type>
      <mode>'2'</mode>
-     <value>'80'</value>
+     <value>'120'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -4479,7 +4479,7 @@
      <caption>'Высота'</caption>
      <type>'0'</type>
      <mode>'2'</mode>
-     <value>'8'</value>
+     <value>'16'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -4689,8 +4689,8 @@
    <helpfile></helpfile>
    <ownerfilter></ownerfilter>
    <paramfile></paramfile>
-   <uid>'159'</uid>
-   <indexstr>'159'</indexstr>
+   <uid>'161'</uid>
+   <indexstr>'161'</indexstr>
    <custom_props>
     <data>
      <name>'signals'</name>
@@ -4801,8 +4801,8 @@
      <itemid>'-1'</itemid>
      <inversebyte>'0'</inversebyte>
      <center>'0'</center>
-     <x_glob>'416'</x_glob>
-     <y_glob>'212'</y_glob>
+     <x_glob>'424'</x_glob>
+     <y_glob>'216'</y_glob>
      <clonable>'0'</clonable>
      <allsurface>'0'</allsurface>
      <portisoff>'0'</portisoff>
@@ -4810,16 +4810,16 @@
      <angbyline>'0'</angbyline>
     </port>
    </ports>
-   <width>'80'</width>
-   <height>'8'</height>
+   <width>'120'</width>
+   <height>'16'</height>
    <angle>'0'</angle>
    <blockimage>
     <page>
      <name>'Container'</name>
      <script>'initialization'#13#10' var l:integer; '#13#10' l = length(signals);'#13#10' if (l = 0) or (l '#62' n_symb) then Text.Text = "signal" else Text.Text = signals;'#13#10'end;'#13#10</script>
      <visible>'1'</visible>
-     <x>'456'</x>
-     <y>'212'</y>
+     <x>'484'</x>
+     <y>'216'</y>
      <width>'64'</width>
      <height>'16'</height>
      <scalex>'6.40625'</scalex>
@@ -5853,8 +5853,8 @@
      <caption>'Момент инерции, кг·м²'</caption>
      <type>'0'</type>
      <mode>'1'</mode>
-     <value>'0.1'</value>
-     <textvalue>'0.1'</textvalue>
+     <value>'0.7'</value>
+     <textvalue>'0.7'</textvalue>
      <fconstant>'1'</fconstant>
      <script></script>
     </data>
@@ -5885,7 +5885,7 @@
      <caption>'Угловая скорость, рад/с'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-7.24917179707906'</value>
+     <value>'-0.0551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -5895,7 +5895,7 @@
      <caption>'Суммарный момент, Н·м'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'65.7293451988599'</value>
+     <value>'5.5302823696828'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -5905,7 +5905,7 @@
      <caption>'Мощность, Вт'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-476.483315456049'</value>
+     <value>'-0.305134538377281'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -7394,7 +7394,7 @@
      <caption>'Относительная угловая скорость, рад/с'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-7.24917179707906'</value>
+     <value>'-0.0551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -7404,7 +7404,7 @@
      <caption>'Внешний момент, Н·м'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-6.7623727719307'</value>
+     <value>'4.97853018420664'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -7414,7 +7414,7 @@
      <caption>'Мощность, Вт'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'49.0216019796154'</value>
+     <value>'-0.274691490959508'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -9465,7 +9465,7 @@
      <caption>'Суммарный момент, Н·м'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-72.4917179707906'</value>
+     <value>'-0.551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -12679,7 +12679,7 @@
    <visuallayer>'1'</visuallayer>
    <points>
     <type>'26'</type>
-    <value>'[(440 , 80),(424 , 80),(440 , 64),(440 , 104)]'</value>
+    <value>'[(440 , 80),(424 , 80.0000000000001),(440 , 64),(440 , 104)]'</value>
    </points>
    <color>'16777215'</color>
    <visual_props>
@@ -12748,7 +12748,7 @@
      <caption>'Координаты точек'</caption>
      <type>'26'</type>
      <mode>'2'</mode>
-     <value>'[(440 , 80),(424 , 80),(440 , 64),(440 , 104)]'</value>
+     <value>'[(440 , 80),(424 , 80.0000000000001),(440 , 64),(440 , 104)]'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -13324,7 +13324,7 @@
      <caption>'Относительная угловая скорость, рад/с'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-7.24917179707906'</value>
+     <value>'-0.0551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -13334,7 +13334,7 @@
      <caption>'Угол, рад'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-0.57529604108953'</value>
+     <value>'0.0366226852044734'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -13357,7 +13357,7 @@
      <inversebyte>'0'</inversebyte>
      <center>'0'</center>
      <x_glob>'456'</x_glob>
-     <y_glob>'80'</y_glob>
+     <y_glob>'79.9999999999999'</y_glob>
      <clonable>'0'</clonable>
      <allsurface>'0'</allsurface>
      <portisoff>'0'</portisoff>
@@ -13376,7 +13376,7 @@
      <inversebyte>'0'</inversebyte>
      <center>'0'</center>
      <x_glob>'424'</x_glob>
-     <y_glob>'80'</y_glob>
+     <y_glob>'80.0000000000001'</y_glob>
      <clonable>'0'</clonable>
      <allsurface>'0'</allsurface>
      <portisoff>'0'</portisoff>
@@ -14894,11 +14894,11 @@
    <end_bl_name>'L59'</end_bl_name>
    <end_port_index>'0'</end_port_index>
    <end_x>'456'</end_x>
-   <end_y>'80'</end_y>
+   <end_y>'79.9999999999999'</end_y>
    <parent_wire_index>'-1'</parent_wire_index>
    <base_points>
     <type>'26'</type>
-    <value>'[(480 , 128),(480 , 128),(480 , 80),(456 , 80)]'</value>
+    <value>'[(480 , 128),(480 , 128),(480 , 80),(456 , 79.9999999999999)]'</value>
    </base_points>
   </object>
   <object>
@@ -17502,11 +17502,11 @@
    <class_name>'Математическая связь'</class_name>
    <obj_type>'101'</obj_type>
    <obj_version>'0'</obj_version>
-   <point_count>'2'</point_count>
+   <point_count>'0'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
     <type>'26'</type>
-    <value>'[(400 , 216),(400 , 212)]'</value>
+    <value>'[]'</value>
    </points>
    <color>'0'</color>
    <visual_props>
@@ -17575,7 +17575,7 @@
      <caption>'Координаты точек'</caption>
      <type>'26'</type>
      <mode>'2'</mode>
-     <value>'[(400 , 216),(400 , 212)]'</value>
+     <value>'[]'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -17893,12 +17893,12 @@
    <end_bl_index>'2'</end_bl_index>
    <end_bl_name>'SignalWriter34'</end_bl_name>
    <end_port_index>'0'</end_port_index>
-   <end_x>'416'</end_x>
-   <end_y>'212'</end_y>
+   <end_x>'424'</end_x>
+   <end_y>'216'</end_y>
    <parent_wire_index>'-1'</parent_wire_index>
    <base_points>
     <type>'26'</type>
-    <value>'[(376 , 216),(400 , 216),(400 , 212),(416 , 212)]'</value>
+    <value>'[(376 , 216),(424 , 216)]'</value>
    </base_points>
   </object>
   <object>
@@ -18555,7 +18555,7 @@
      <caption>'Момент деформирования, Н·м'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-72.4917179707906'</value>
+     <value>'-0.551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -18565,7 +18565,7 @@
      <caption>'Относительная угловая скорость, рад/с'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'-7.24917179707906'</value>
+     <value>'-0.0551752185476168'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -18575,7 +18575,7 @@
      <caption>'Мощность деформирования, Вт'</caption>
      <type>'0'</type>
      <mode>'0'</mode>
-     <value>'525.504917435664'</value>
+     <value>'0.0304430474177728'</value>
      <textvalue>'0'</textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -20828,10 +20828,414 @@
    </base_points>
   </object>
   <object>
+   <name>'MBTYWire1737'</name>
+   <class_name>'Математическая связь'</class_name>
+   <obj_type>'101'</obj_type>
+   <obj_version>'0'</obj_version>
+   <point_count>'3'</point_count>
+   <visuallayer>'1'</visuallayer>
+   <points>
+    <type>'26'</type>
+    <value>'[(432 , 56),(304 , 56),(304 , 216)]'</value>
+   </points>
+   <color>'0'</color>
+   <visual_props>
+    <data>
+     <name>'Name'</name>
+     <caption>'Имя объекта'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value>'MBTYWire1737'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'ClassName'</name>
+     <caption>'Тип элемента'</caption>
+     <type>'30'</type>
+     <mode>'2'</mode>
+     <value>'Математическая связь'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Hint'</name>
+     <caption>'Подсказка'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'HideHintOnEdit'</name>
+     <caption>'Блокировать подсказку при редактировании'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Visible'</name>
+     <caption>'Видимость при выполнении'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Color'</name>
+     <caption>'Цвет'</caption>
+     <type>'3'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Points'</name>
+     <caption>'Координаты точек'</caption>
+     <type>'26'</type>
+     <mode>'2'</mode>
+     <value>'[(432 , 56),(304 , 56),(304 , 216)]'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Instance'</name>
+     <caption>'Ссылка'</caption>
+     <type>'29'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'EditInstance'</name>
+     <caption>'Ссылка при редактировании'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'InstanceMode'</name>
+     <caption>'Действие для вывода ссылки'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'Двойной щелчок левой кнопкой'#13'Щелчок левой кнопой'#13'Щелчок правой кнопкой'#13'Alt+левая кнопка мыши'#13'Alt+правая кнопка мыши'#13'Alt+двойной щелчок левой кнопкой'#13'Shift+двойной щелчок левой кнопкой'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Tag'</name>
+     <caption>'Ярлык'</caption>
+     <type>'1'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Template'</name>
+     <caption>'Шаблон автозаполнения'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Layer'</name>
+     <caption>'Номер решателя'</caption>
+     <type>'1'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnInitScript'</name>
+     <caption>'Скрипт инициализации объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnRunScript'</name>
+     <caption>'Скрипт исполнения объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnDestroyScript'</name>
+     <caption>'Скрипт уничтожения объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'LockSizes'</name>
+     <caption>'Блокировать изменение размеров'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'MouseIn'</name>
+     <caption>'Указатель в пределах объекта'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Active'</name>
+     <caption>'Активность объекта'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'MayLoadRestart'</name>
+     <caption>'Загружать рестарт'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BlockIndex'</name>
+     <caption>'Индекс блока'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'UID'</name>
+     <caption>'UID'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Opacity'</name>
+     <caption>'Коэффициент прозрачности'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'InvisibleProps'</name>
+     <caption>'Список невидимых свойств'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'ReadOnlyProps'</name>
+     <caption>'Список имён свойств для чтения'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'LineWidth'</name>
+     <caption>'Толщина линии'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue>'1'</textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'PenStyle'</name>
+     <caption>'Стиль линии'</caption>
+     <type>'9'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BorderWidth'</name>
+     <caption>'Толщина границы'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue>'0'</textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BorderColor'</name>
+     <caption>'Цвет границы'</caption>
+     <type>'3'</type>
+     <mode>'2'</mode>
+     <value>'16777215'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'StartPointSize'</name>
+     <caption>'Коэффициент увеличения начальной точки линии'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'-1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'StartArrowOverride'</name>
+     <caption>'Вид начального порта линии связи'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'EndArrowOverride'</name>
+     <caption>'Вид конечного порта линии связи'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'WireDirected'</name>
+     <caption>'Направленная'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+   </visual_props>
+   <freeze>'0'</freeze>
+   <active_element>'1'</active_element>
+   <is_child>'0'</is_child>
+   <invisibleprops></invisibleprops>
+   <readonlyprops></readonlyprops>
+   <extmodulname>'$(Root)\mbtylib.dll@wire'</extmodulname>
+   <calctemplate></calctemplate>
+   <helpkeyword></helpkeyword>
+   <helpfile></helpfile>
+   <ownerfilter></ownerfilter>
+   <paramfile></paramfile>
+   <uid></uid>
+   <indexstr></indexstr>
+   <custom_props>
+   </custom_props>
+   <custom_params>
+    <data>
+     <name>'Y'</name>
+     <caption>'Значение'</caption>
+     <type>'5'</type>
+     <mode>'0'</mode>
+     <value>'[0]'</value>
+     <textvalue>'[0]'</textvalue>
+     <fconstant>'2'</fconstant>
+     <script></script>
+    </data>
+   </custom_params>
+   <plugindata>
+    <type>'18'</type>
+    <value>'00000000'</value>
+   </plugindata>
+   <directed>'1'</directed>
+   <branched>'1'</branched>
+   <commonprops>'0'</commonprops>
+   <parentwirenode>'-1'</parentwirenode>
+   <start_bl_index>'6'</start_bl_index>
+   <start_bl_name>'L59'</start_bl_name>
+   <start_port_index>'3'</start_port_index>
+   <start_x>'432'</start_x>
+   <start_y>'64'</start_y>
+   <end_bl_index>'9'</end_bl_index>
+   <end_bl_name>'ep_datP_1'</end_bl_name>
+   <end_port_index>'0'</end_port_index>
+   <end_x>'328'</end_x>
+   <end_y>'216'</end_y>
+   <parent_wire_index>'-1'</parent_wire_index>
+   <base_points>
+    <type>'26'</type>
+    <value>'[(432 , 64),(432 , 56),(304 , 56),(304 , 216),(328 , 216)]'</value>
+   </base_points>
+  </object>
+  <object>
    <name>'TextLabel157'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21185,7 +21589,7 @@
    <name>'TextLabel156'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21539,7 +21943,7 @@
    <name>'TextLabel155'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21893,7 +22297,7 @@
    <name>'TextLabel169'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22247,7 +22651,7 @@
    <name>'TextLabel170'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22601,7 +23005,7 @@
    <name>'TextLabel171'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22955,7 +23359,7 @@
    <name>'TextLabel172'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -23309,7 +23713,7 @@
    <name>'TextLabel173'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -23663,7 +24067,7 @@
    <name>'TextLabel174'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -24017,7 +24421,7 @@
    <name>'TextLabel175'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -24764,18 +25168,18 @@
    <end_bl_name>'L59'</end_bl_name>
    <end_port_index>'1'</end_port_index>
    <end_x>'424'</end_x>
-   <end_y>'80'</end_y>
+   <end_y>'80.0000000000001'</end_y>
    <parent_wire_index>'-1'</parent_wire_index>
    <base_points>
     <type>'26'</type>
-    <value>'[(384 , 48),(384 , 80),(408 , 80),(424 , 80)]'</value>
+    <value>'[(384 , 48),(384 , 80),(408 , 80),(424 , 80.0000000000001)]'</value>
    </base_points>
   </object>
   <object>
    <name>'TextLabel176'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -25129,7 +25533,7 @@
    <name>'TextLabel177'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -27436,7 +27840,7 @@
       <name>'TextLabel'</name>
       <class_name>'TextLabel'</class_name>
       <obj_type>'20'</obj_type>
-      <obj_version>'4'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -27790,7 +28194,7 @@
       <name>'TextLabel1'</name>
       <class_name>'TextLabel'</class_name>
       <obj_type>'20'</obj_type>
-      <obj_version>'4'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -28144,7 +28548,7 @@
       <name>'Circle'</name>
       <class_name>'Circle'</class_name>
       <obj_type>'7'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'2'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -29135,7 +29539,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'52'</value>
+       <value>'54'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -29145,7 +29549,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'52'</value>
+       <value>'54'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -29425,8 +29829,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'52'</uid>
-     <indexstr>'52'</indexstr>
+     <uid>'54'</uid>
+     <indexstr>'54'</indexstr>
      <custom_props>
       <data>
        <name>'el_type'</name>
@@ -29753,7 +30157,7 @@
         <name>'FillCircle'</name>
         <class_name>'FillCircle'</class_name>
         <obj_type>'8'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30034,7 +30438,7 @@
         <name>'FillRect'</name>
         <class_name>'FillRect'</class_name>
         <obj_type>'6'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30368,7 +30772,7 @@
         <name>'C_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30616,7 +31020,7 @@
         <name>'C_line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30864,7 +31268,7 @@
         <name>'C_Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31112,7 +31516,7 @@
         <name>'C_Line4'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31360,7 +31764,7 @@
         <name>'L_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31608,7 +32012,7 @@
         <name>'L_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31856,7 +32260,7 @@
         <name>'L_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32104,7 +32508,7 @@
         <name>'L_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32352,7 +32756,7 @@
         <name>'L_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32600,7 +33004,7 @@
         <name>'RLC_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32848,7 +33252,7 @@
         <name>'RLC_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33096,7 +33500,7 @@
         <name>'RLC_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33344,7 +33748,7 @@
         <name>'RLC_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33592,7 +33996,7 @@
         <name>'RLC_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33840,7 +34244,7 @@
         <name>'E_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34088,7 +34492,7 @@
         <name>'E_Polygon'</name>
         <class_name>'Polygon'</class_name>
         <obj_type>'2'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34389,7 +34793,7 @@
         <name>'I_Line1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34637,7 +35041,7 @@
         <name>'I_Line2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34885,7 +35289,7 @@
         <name>'RSH_PL1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'8'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -35133,7 +35537,7 @@
         <name>'RSH_PL2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -35381,7 +35785,7 @@
         <name>'RLC_PR'</name>
         <class_name>'RoundPolyLine'</class_name>
         <obj_type>'40'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -35629,7 +36033,7 @@
         <name>'KeyLine'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -36105,7 +36509,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'5'</value>
+       <value>'6'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -36115,7 +36519,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'5'</value>
+       <value>'6'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -36395,8 +36799,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'5'</uid>
-     <indexstr>'5'</indexstr>
+     <uid>'6'</uid>
+     <indexstr>'6'</indexstr>
      <custom_props>
       <data>
        <name>'a'</name>
@@ -36486,7 +36890,7 @@
         <name>'PolyLine4'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -36734,7 +37138,7 @@
         <name>'PolyLine6'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -36982,7 +37386,7 @@
         <name>'PolyLine7'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -37230,7 +37634,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -37478,7 +37882,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -38446,7 +38850,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'53'</value>
+       <value>'52'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -38456,7 +38860,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'53'</value>
+       <value>'52'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -38736,8 +39140,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'53'</uid>
-     <indexstr>'53'</indexstr>
+     <uid>'52'</uid>
+     <indexstr>'52'</indexstr>
      <custom_props>
       <data>
        <name>'el_type'</name>
@@ -39026,7 +39430,7 @@
        <inversebyte>'0'</inversebyte>
        <center>'0'</center>
        <x_glob>'280'</x_glob>
-       <y_glob>'-96'</y_glob>
+       <y_glob>'-96.0000000000001'</y_glob>
        <clonable>'0'</clonable>
        <allsurface>'0'</allsurface>
        <portisoff>'0'</portisoff>
@@ -39064,7 +39468,7 @@
         <name>'FillCircle'</name>
         <class_name>'FillCircle'</class_name>
         <obj_type>'8'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39345,7 +39749,7 @@
         <name>'FillRect'</name>
         <class_name>'FillRect'</class_name>
         <obj_type>'6'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39679,7 +40083,7 @@
         <name>'C_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39927,7 +40331,7 @@
         <name>'C_line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40175,7 +40579,7 @@
         <name>'C_Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40423,7 +40827,7 @@
         <name>'C_Line4'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40671,7 +41075,7 @@
         <name>'L_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40919,7 +41323,7 @@
         <name>'L_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41167,7 +41571,7 @@
         <name>'L_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41415,7 +41819,7 @@
         <name>'L_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41663,7 +42067,7 @@
         <name>'L_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41911,7 +42315,7 @@
         <name>'RLC_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42159,7 +42563,7 @@
         <name>'RLC_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42407,7 +42811,7 @@
         <name>'RLC_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42655,7 +43059,7 @@
         <name>'RLC_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42903,7 +43307,7 @@
         <name>'RLC_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43151,7 +43555,7 @@
         <name>'E_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43399,7 +43803,7 @@
         <name>'E_Polygon'</name>
         <class_name>'Polygon'</class_name>
         <obj_type>'2'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43700,7 +44104,7 @@
         <name>'I_Line1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43948,7 +44352,7 @@
         <name>'I_Line2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -44196,7 +44600,7 @@
         <name>'RSH_PL1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'8'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -44444,7 +44848,7 @@
         <name>'RSH_PL2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -44692,7 +45096,7 @@
         <name>'RLC_PR'</name>
         <class_name>'RoundPolyLine'</class_name>
         <obj_type>'40'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -44940,7 +45344,7 @@
         <name>'KeyLine'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -45416,7 +45820,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'6'</value>
+       <value>'7'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -45426,7 +45830,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'6'</value>
+       <value>'7'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -45652,8 +46056,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'6'</uid>
-     <indexstr>'6'</indexstr>
+     <uid>'7'</uid>
+     <indexstr>'7'</indexstr>
      <custom_props>
       <data>
        <name>'block_can_be_stub'</name>
@@ -46495,7 +46899,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -46743,7 +47147,7 @@
         <name>'TextLabel'</name>
         <class_name>'TextLabel'</class_name>
         <obj_type>'20'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -47097,7 +47501,7 @@
         <name>'Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -47345,7 +47749,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -47593,7 +47997,7 @@
         <name>'Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -47841,7 +48245,7 @@
         <name>'PolyLine2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -48089,7 +48493,7 @@
         <name>'PolyLine3'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -50665,7 +51069,7 @@
          <caption>'Индекс блока'</caption>
          <type>'4'</type>
          <mode>'2'</mode>
-         <value>'49'</value>
+         <value>'50'</value>
          <textvalue></textvalue>
          <fconstant>'0'</fconstant>
          <script></script>
@@ -50675,7 +51079,7 @@
          <caption>'UID'</caption>
          <type>'4'</type>
          <mode>'2'</mode>
-         <value>'49'</value>
+         <value>'50'</value>
          <textvalue></textvalue>
          <fconstant>'0'</fconstant>
          <script></script>
@@ -50955,8 +51359,8 @@
        <helpfile></helpfile>
        <ownerfilter></ownerfilter>
        <paramfile></paramfile>
-       <uid>'49'</uid>
-       <indexstr>'49'</indexstr>
+       <uid>'50'</uid>
+       <indexstr>'50'</indexstr>
        <custom_props>
         <data>
          <name>'k'</name>
@@ -51106,7 +51510,7 @@
           <name>'PolyLine2'</name>
           <class_name>'PolyLine'</class_name>
           <obj_type>'1'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'3'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -51354,7 +51758,7 @@
           <name>'Line'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -51602,7 +52006,7 @@
           <name>'L1'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -51850,7 +52254,7 @@
           <name>'PolyLine3'</name>
           <class_name>'PolyLine'</class_name>
           <obj_type>'1'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'3'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -52098,7 +52502,7 @@
           <name>'Line3'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -52346,7 +52750,7 @@
           <name>'Text'</name>
           <class_name>'RotatedText'</class_name>
           <obj_type>'29'</obj_type>
-          <obj_version>'4'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'1'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -52710,7 +53114,7 @@
           <name>'L2'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -55220,7 +55624,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'7'</value>
+       <value>'8'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -55230,7 +55634,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'7'</value>
+       <value>'8'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -55510,8 +55914,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'7'</uid>
-     <indexstr>'7'</indexstr>
+     <uid>'8'</uid>
+     <indexstr>'8'</indexstr>
      <custom_props>
       <data>
        <name>'a'</name>
@@ -55604,7 +56008,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -55852,7 +56256,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -56100,7 +56504,7 @@
         <name>'TextLabel'</name>
         <class_name>'TextLabel'</class_name>
         <obj_type>'20'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -57745,11 +58149,11 @@
      <end_bl_name>'R5'</end_bl_name>
      <end_port_index>'2'</end_port_index>
      <end_x>'280'</end_x>
-     <end_y>'-96'</end_y>
+     <end_y>'-96.0000000000001'</end_y>
      <parent_wire_index>'-1'</parent_wire_index>
      <base_points>
       <type>'26'</type>
-      <value>'[(240 , -96),(280 , -96)]'</value>
+      <value>'[(240 , -96),(280 , -96.0000000000001)]'</value>
      </base_points>
     </object>
     <object>
@@ -59155,7 +59559,7 @@
        <caption>'Индекс блока'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'48'</value>
+       <value>'49'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -59165,7 +59569,7 @@
        <caption>'UID'</caption>
        <type>'4'</type>
        <mode>'2'</mode>
-       <value>'48'</value>
+       <value>'49'</value>
        <textvalue></textvalue>
        <fconstant>'0'</fconstant>
        <script></script>
@@ -59445,8 +59849,8 @@
      <helpfile></helpfile>
      <ownerfilter></ownerfilter>
      <paramfile></paramfile>
-     <uid>'48'</uid>
-     <indexstr>'48'</indexstr>
+     <uid>'49'</uid>
+     <indexstr>'49'</indexstr>
      <custom_props>
       <data>
        <name>'a'</name>
@@ -59545,7 +59949,7 @@
         <name>'Text'</name>
         <class_name>'RotatedText'</class_name>
         <obj_type>'29'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -59909,7 +60313,7 @@
         <name>'PolyLine4'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -60157,7 +60561,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -60405,7 +60809,7 @@
         <name>'PolyLine5'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -60653,7 +61057,7 @@
         <name>'PolyLine6'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -62113,7 +62517,7 @@
    <start_port_index>'0'</start_port_index>
    <start_x>'80'</start_x>
    <start_y>'288'</start_y>
-   <end_bl_index>'27'</end_bl_index>
+   <end_bl_index>'28'</end_bl_index>
    <end_bl_name>'ep_convSHIM_1'</end_bl_name>
    <end_port_index>'1'</end_port_index>
    <end_x>'104'</end_x>
@@ -63692,12 +64096,12 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'28'</start_bl_index>
+   <start_bl_index>'29'</start_bl_index>
    <start_bl_name>'ac_U7'</start_bl_name>
    <start_port_index>'1'</start_port_index>
    <start_x>'32'</start_x>
    <start_y>'200'</start_y>
-   <end_bl_index>'30'</end_bl_index>
+   <end_bl_index>'31'</end_bl_index>
    <end_bl_name>'ep_Inv_3'</end_bl_name>
    <end_port_index>'7'</end_port_index>
    <end_x>'152'</end_x>
@@ -64088,12 +64492,12 @@
    <parentwirenode>'2'</parentwirenode>
    <start_bl_index>'-1'</start_bl_index>
    <start_port_index>'-1'</start_port_index>
-   <end_bl_index>'30'</end_bl_index>
+   <end_bl_index>'31'</end_bl_index>
    <end_bl_name>'ep_Inv_3'</end_bl_name>
    <end_port_index>'6'</end_port_index>
    <end_x>'128'</end_x>
    <end_y>'208'</end_y>
-   <parent_wire_index>'31'</parent_wire_index>
+   <parent_wire_index>'32'</parent_wire_index>
    <parent_wire_name>'ElectroWire3'</parent_wire_name>
    <start_x>'128'</start_x>
    <start_y>'224'</start_y>
@@ -64482,18 +64886,412 @@
    <parentwirenode>'1'</parentwirenode>
    <start_bl_index>'-1'</start_bl_index>
    <start_port_index>'-1'</start_port_index>
-   <end_bl_index>'30'</end_bl_index>
+   <end_bl_index>'31'</end_bl_index>
    <end_bl_name>'ep_Inv_3'</end_bl_name>
    <end_port_index>'5'</end_port_index>
    <end_x>'104'</end_x>
    <end_y>'208'</end_y>
-   <parent_wire_index>'31'</parent_wire_index>
+   <parent_wire_index>'32'</parent_wire_index>
    <parent_wire_name>'ElectroWire3'</parent_wire_name>
    <start_x>'104'</start_x>
    <start_y>'224'</start_y>
    <base_points>
     <type>'26'</type>
     <value>'[(104 , 224),(104 , 208)]'</value>
+   </base_points>
+  </object>
+  <object>
+   <name>'ElectroWire6'</name>
+   <class_name>'Электрическая'</class_name>
+   <obj_type>'101'</obj_type>
+   <obj_version>'0'</obj_version>
+   <point_count>'2'</point_count>
+   <visuallayer>'1'</visuallayer>
+   <points>
+    <type>'26'</type>
+    <value>'[(32 , 144),(128 , 144)]'</value>
+   </points>
+   <color>'0'</color>
+   <visual_props>
+    <data>
+     <name>'Name'</name>
+     <caption>'Имя объекта'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value>'ElectroWire6'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'ClassName'</name>
+     <caption>'Тип элемента'</caption>
+     <type>'30'</type>
+     <mode>'2'</mode>
+     <value>'Электрическая'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Hint'</name>
+     <caption>'Подсказка'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'HideHintOnEdit'</name>
+     <caption>'Блокировать подсказку при редактировании'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Visible'</name>
+     <caption>'Видимость при выполнении'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Color'</name>
+     <caption>'Цвет'</caption>
+     <type>'3'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Points'</name>
+     <caption>'Координаты точек'</caption>
+     <type>'26'</type>
+     <mode>'2'</mode>
+     <value>'[(32 , 144),(128 , 144)]'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Instance'</name>
+     <caption>'Ссылка'</caption>
+     <type>'29'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'EditInstance'</name>
+     <caption>'Ссылка при редактировании'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'InstanceMode'</name>
+     <caption>'Действие для вывода ссылки'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'Двойной щелчок левой кнопкой'#13'Щелчок левой кнопой'#13'Щелчок правой кнопкой'#13'Alt+левая кнопка мыши'#13'Alt+правая кнопка мыши'#13'Alt+двойной щелчок левой кнопкой'#13'Shift+двойной щелчок левой кнопкой'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Tag'</name>
+     <caption>'Ярлык'</caption>
+     <type>'1'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Template'</name>
+     <caption>'Шаблон автозаполнения'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Layer'</name>
+     <caption>'Номер решателя'</caption>
+     <type>'1'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnInitScript'</name>
+     <caption>'Скрипт инициализации объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnRunScript'</name>
+     <caption>'Скрипт исполнения объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'OnDestroyScript'</name>
+     <caption>'Скрипт уничтожения объекта'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'LockSizes'</name>
+     <caption>'Блокировать изменение размеров'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'MouseIn'</name>
+     <caption>'Указатель в пределах объекта'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Active'</name>
+     <caption>'Активность объекта'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'MayLoadRestart'</name>
+     <caption>'Загружать рестарт'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BlockIndex'</name>
+     <caption>'Индекс блока'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'UID'</name>
+     <caption>'UID'</caption>
+     <type>'4'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'Opacity'</name>
+     <caption>'Коэффициент прозрачности'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'InvisibleProps'</name>
+     <caption>'Список невидимых свойств'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'ReadOnlyProps'</name>
+     <caption>'Список имён свойств для чтения'</caption>
+     <type>'8'</type>
+     <mode>'2'</mode>
+     <value></value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'LineWidth'</name>
+     <caption>'Толщина линии'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue>'1'</textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'PenStyle'</name>
+     <caption>'Стиль линии'</caption>
+     <type>'9'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BorderWidth'</name>
+     <caption>'Толщина границы'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'0'</value>
+     <textvalue>'0'</textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'BorderColor'</name>
+     <caption>'Цвет границы'</caption>
+     <type>'3'</type>
+     <mode>'2'</mode>
+     <value>'16777215'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'StartPointSize'</name>
+     <caption>'Коэффициент увеличения начальной точки линии'</caption>
+     <type>'0'</type>
+     <mode>'2'</mode>
+     <value>'-1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'StartArrowOverride'</name>
+     <caption>'Вид начального порта линии связи'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'EndArrowOverride'</name>
+     <caption>'Вид конечного порта линии связи'</caption>
+     <type>'15'</type>
+     <mode>'2'</mode>
+     <value>
+      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
+      <index>'0'</index>
+     </value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+    <data>
+     <name>'WireDirected'</name>
+     <caption>'Направленная'</caption>
+     <type>'2'</type>
+     <mode>'2'</mode>
+     <value>'1'</value>
+     <textvalue></textvalue>
+     <fconstant>'0'</fconstant>
+     <script></script>
+    </data>
+   </visual_props>
+   <freeze>'0'</freeze>
+   <active_element>'1'</active_element>
+   <is_child>'0'</is_child>
+   <invisibleprops></invisibleprops>
+   <readonlyprops></readonlyprops>
+   <extmodulname></extmodulname>
+   <calctemplate></calctemplate>
+   <helpkeyword></helpkeyword>
+   <helpfile></helpfile>
+   <ownerfilter></ownerfilter>
+   <paramfile></paramfile>
+   <uid></uid>
+   <indexstr></indexstr>
+   <custom_props>
+   </custom_props>
+   <custom_params>
+   </custom_params>
+   <plugindata>
+    <type>'18'</type>
+    <value>'00000000'</value>
+   </plugindata>
+   <directed>'1'</directed>
+   <branched>'1'</branched>
+   <commonprops>'0'</commonprops>
+   <parentwirenode>'-1'</parentwirenode>
+   <start_bl_index>'29'</start_bl_index>
+   <start_bl_name>'ac_U7'</start_bl_name>
+   <start_port_index>'0'</start_port_index>
+   <start_x>'32'</start_x>
+   <start_y>'168'</start_y>
+   <end_bl_index>'31'</end_bl_index>
+   <end_bl_name>'ep_Inv_3'</end_bl_name>
+   <end_port_index>'2'</end_port_index>
+   <end_x>'128'</end_x>
+   <end_y>'160'</end_y>
+   <parent_wire_index>'-1'</parent_wire_index>
+   <base_points>
+    <type>'26'</type>
+    <value>'[(32 , 168),(32 , 144),(128 , 144),(128 , 160)]'</value>
    </base_points>
   </object>
   <object>
@@ -64884,12 +65682,12 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'27'</start_bl_index>
+   <start_bl_index>'28'</start_bl_index>
    <start_bl_name>'ep_convSHIM_1'</start_bl_name>
    <start_port_index>'3'</start_port_index>
    <start_x>'152'</start_x>
    <start_y>'272'</start_y>
-   <end_bl_index>'30'</end_bl_index>
+   <end_bl_index>'31'</end_bl_index>
    <end_bl_name>'ep_Inv_3'</end_bl_name>
    <end_port_index>'4'</end_port_index>
    <end_x>'80'</end_x>
@@ -65121,7 +65919,7 @@
      <caption>'Индекс блока'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'160'</value>
+     <value>'162'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -65131,7 +65929,7 @@
      <caption>'UID'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'160'</value>
+     <value>'162'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -65441,8 +66239,8 @@
    <helpfile></helpfile>
    <ownerfilter></ownerfilter>
    <paramfile></paramfile>
-   <uid>'160'</uid>
-   <indexstr>'160'</indexstr>
+   <uid>'162'</uid>
+   <indexstr>'162'</indexstr>
    <custom_props>
     <data>
      <name>'InPortCount'</name>
@@ -65461,7 +66259,7 @@
      <caption>'Суммарный вектор входов'</caption>
      <type>'5'</type>
      <mode>'0'</mode>
-     <value>'[-0.275234729372819 , 0.184131728685856 , 0.0911030006869491]'</value>
+     <value>'[0.0295071312572329 , 6.01470426232413 , -6.04421139358137]'</value>
      <textvalue>'[0]'</textvalue>
      <fconstant>'2'</fconstant>
      <script></script>
@@ -65522,7 +66320,7 @@
       <name>'PolyLine1'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -65770,7 +66568,7 @@
       <name>'PolyLine2'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66018,7 +66816,7 @@
       <name>'PolyLine3'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66266,7 +67064,7 @@
       <name>'PolyLine4'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'9'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66930,7 +67728,7 @@
       <name>'Arc'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -67178,7 +67976,7 @@
       <name>'Arc1'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -67426,7 +68224,7 @@
       <name>'Arc2'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -67674,7 +68472,7 @@
       <name>'Arc3'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -67922,7 +68720,7 @@
       <name>'Arc4'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -68170,7 +68968,7 @@
       <name>'Arc5'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -68466,13 +69264,13 @@
      <decimate>'1'</decimate>
      <filterinv>'1'</filterinv>
      <maxcount>'0'</maxcount>
-     <left>'864'</left>
-     <top>'171'</top>
-     <right>'1360'</right>
-     <bottom>'735'</bottom>
-     <visible>'0'</visible>
+     <left>'1400'</left>
+     <top>'142'</top>
+     <right>'1896'</right>
+     <bottom>'706'</bottom>
+     <visible>'1'</visible>
      <formstyle>'0'</formstyle>
-     <winstate>'1'</winstate>
+     <winstate>'0'</winstate>
      <period>'500'</period>
      <tabfile></tabfile>
      <fmultiaxis>'0'</fmultiaxis>
@@ -69261,7 +70059,7 @@
      <caption>'Закрыть субмодель'</caption>
      <type>'2'</type>
      <mode>'2'</mode>
-     <value>'0'</value>
+     <value>'1'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -70384,12 +71182,12 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'30'</start_bl_index>
+   <start_bl_index>'31'</start_bl_index>
    <start_bl_name>'ep_Inv_3'</start_bl_name>
    <start_port_index>'0'</start_port_index>
    <start_x>'176'</start_x>
    <start_y>'168'</start_y>
-   <end_bl_index>'36'</end_bl_index>
+   <end_bl_index>'38'</end_bl_index>
    <end_bl_name>'ep_SDSG_6'</end_bl_name>
    <end_port_index>'2'</end_port_index>
    <end_x>'216'</end_x>
@@ -70778,12 +71576,12 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'30'</start_bl_index>
+   <start_bl_index>'31'</start_bl_index>
    <start_bl_name>'ep_Inv_3'</start_bl_name>
    <start_port_index>'1'</start_port_index>
    <start_x>'176'</start_x>
    <start_y>'184'</start_y>
-   <end_bl_index>'36'</end_bl_index>
+   <end_bl_index>'38'</end_bl_index>
    <end_bl_name>'ep_SDSG_6'</end_bl_name>
    <end_port_index>'3'</end_port_index>
    <end_x>'216'</end_x>
@@ -71172,12 +71970,12 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'30'</start_bl_index>
+   <start_bl_index>'31'</start_bl_index>
    <start_bl_name>'ep_Inv_3'</start_bl_name>
    <start_port_index>'3'</start_port_index>
    <start_x>'176'</start_x>
    <start_y>'200'</start_y>
-   <end_bl_index>'36'</end_bl_index>
+   <end_bl_index>'38'</end_bl_index>
    <end_bl_name>'ep_SDSG_6'</end_bl_name>
    <end_port_index>'4'</end_port_index>
    <end_x>'216'</end_x>
@@ -71576,7 +72374,7 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'36'</start_bl_index>
+   <start_bl_index>'38'</start_bl_index>
    <start_bl_name>'ep_SDSG_6'</start_bl_name>
    <start_port_index>'8'</start_port_index>
    <start_x>'280'</start_x>
@@ -71982,12 +72780,12 @@
    <parentwirenode>'1'</parentwirenode>
    <start_bl_index>'-1'</start_bl_index>
    <start_port_index>'-1'</start_port_index>
-   <end_bl_index>'35'</end_bl_index>
+   <end_bl_index>'37'</end_bl_index>
    <end_bl_name>'TimeGraphic18'</end_bl_name>
    <end_port_index>'0'</end_port_index>
    <end_x>'272'</end_x>
    <end_y>'304'</end_y>
-   <parent_wire_index>'40'</parent_wire_index>
+   <parent_wire_index>'42'</parent_wire_index>
    <parent_wire_name>'MBTYWire1741'</parent_wire_name>
    <start_x>'296'</start_x>
    <start_y>'304'</start_y>
@@ -72391,7 +73189,7 @@
    <end_port_index>'1'</end_port_index>
    <end_x>'424'</end_x>
    <end_y>'128'</end_y>
-   <parent_wire_index>'24'</parent_wire_index>
+   <parent_wire_index>'25'</parent_wire_index>
    <parent_wire_name>'MechWireTw'</parent_wire_name>
    <start_x>'408'</start_x>
    <start_y>'80'</start_y>
@@ -72793,7 +73591,7 @@
    <start_port_index>'2'</start_port_index>
    <start_x>'448'</start_x>
    <start_y>'64'</start_y>
-   <end_bl_index>'36'</end_bl_index>
+   <end_bl_index>'38'</end_bl_index>
    <end_bl_name>'ep_SDSG_6'</end_bl_name>
    <end_port_index>'6'</end_port_index>
    <end_x>'216'</end_x>
@@ -73199,7 +73997,7 @@
    <end_port_index>'1'</end_port_index>
    <end_x>'384'</end_x>
    <end_y>'120'</end_y>
-   <parent_wire_index>'24'</parent_wire_index>
+   <parent_wire_index>'25'</parent_wire_index>
    <parent_wire_name>'MechWireTw'</parent_wire_name>
    <start_x>'384'</start_x>
    <start_y>'80'</start_y>
@@ -73209,15 +74007,15 @@
    </base_points>
   </object>
   <object>
-   <name>'ElectroWire9'</name>
-   <class_name>'Электрическая'</class_name>
+   <name>'MBTYWire1745'</name>
+   <class_name>'Математическая связь'</class_name>
    <obj_type>'101'</obj_type>
    <obj_version>'0'</obj_version>
    <point_count>'2'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
     <type>'26'</type>
-    <value>'[(32 , 128),(128 , 128)]'</value>
+    <value>'[(312 , 132.8),(312 , 136)]'</value>
    </points>
    <color>'0'</color>
    <visual_props>
@@ -73226,401 +74024,7 @@
      <caption>'Имя объекта'</caption>
      <type>'4'</type>
      <mode>'2'</mode>
-     <value>'ElectroWire9'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'ClassName'</name>
-     <caption>'Тип элемента'</caption>
-     <type>'30'</type>
-     <mode>'2'</mode>
-     <value>'Электрическая'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Hint'</name>
-     <caption>'Подсказка'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'HideHintOnEdit'</name>
-     <caption>'Блокировать подсказку при редактировании'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Visible'</name>
-     <caption>'Видимость при выполнении'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Color'</name>
-     <caption>'Цвет'</caption>
-     <type>'3'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Points'</name>
-     <caption>'Координаты точек'</caption>
-     <type>'26'</type>
-     <mode>'2'</mode>
-     <value>'[(32 , 128),(128 , 128)]'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Instance'</name>
-     <caption>'Ссылка'</caption>
-     <type>'29'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'EditInstance'</name>
-     <caption>'Ссылка при редактировании'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'InstanceMode'</name>
-     <caption>'Действие для вывода ссылки'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'Двойной щелчок левой кнопкой'#13'Щелчок левой кнопой'#13'Щелчок правой кнопкой'#13'Alt+левая кнопка мыши'#13'Alt+правая кнопка мыши'#13'Alt+двойной щелчок левой кнопкой'#13'Shift+двойной щелчок левой кнопкой'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Tag'</name>
-     <caption>'Ярлык'</caption>
-     <type>'1'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Template'</name>
-     <caption>'Шаблон автозаполнения'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Layer'</name>
-     <caption>'Номер решателя'</caption>
-     <type>'1'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnInitScript'</name>
-     <caption>'Скрипт инициализации объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnRunScript'</name>
-     <caption>'Скрипт исполнения объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnDestroyScript'</name>
-     <caption>'Скрипт уничтожения объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'LockSizes'</name>
-     <caption>'Блокировать изменение размеров'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'MouseIn'</name>
-     <caption>'Указатель в пределах объекта'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Active'</name>
-     <caption>'Активность объекта'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'MayLoadRestart'</name>
-     <caption>'Загружать рестарт'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BlockIndex'</name>
-     <caption>'Индекс блока'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'UID'</name>
-     <caption>'UID'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Opacity'</name>
-     <caption>'Коэффициент прозрачности'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'InvisibleProps'</name>
-     <caption>'Список невидимых свойств'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'ReadOnlyProps'</name>
-     <caption>'Список имён свойств для чтения'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'LineWidth'</name>
-     <caption>'Толщина линии'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue>'1'</textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'PenStyle'</name>
-     <caption>'Стиль линии'</caption>
-     <type>'9'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BorderWidth'</name>
-     <caption>'Толщина границы'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue>'0'</textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BorderColor'</name>
-     <caption>'Цвет границы'</caption>
-     <type>'3'</type>
-     <mode>'2'</mode>
-     <value>'16777215'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'StartPointSize'</name>
-     <caption>'Коэффициент увеличения начальной точки линии'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'-1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'StartArrowOverride'</name>
-     <caption>'Вид начального порта линии связи'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'EndArrowOverride'</name>
-     <caption>'Вид конечного порта линии связи'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'WireDirected'</name>
-     <caption>'Направленная'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-   </visual_props>
-   <freeze>'0'</freeze>
-   <active_element>'1'</active_element>
-   <is_child>'0'</is_child>
-   <invisibleprops></invisibleprops>
-   <readonlyprops></readonlyprops>
-   <extmodulname></extmodulname>
-   <calctemplate></calctemplate>
-   <helpkeyword></helpkeyword>
-   <helpfile></helpfile>
-   <ownerfilter></ownerfilter>
-   <paramfile></paramfile>
-   <uid></uid>
-   <indexstr></indexstr>
-   <custom_props>
-   </custom_props>
-   <custom_params>
-   </custom_params>
-   <plugindata>
-    <type>'18'</type>
-    <value>'00000000'</value>
-   </plugindata>
-   <directed>'1'</directed>
-   <branched>'1'</branched>
-   <commonprops>'0'</commonprops>
-   <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'28'</start_bl_index>
-   <start_bl_name>'ac_U7'</start_bl_name>
-   <start_port_index>'0'</start_port_index>
-   <start_x>'32'</start_x>
-   <start_y>'168'</start_y>
-   <end_bl_index>'30'</end_bl_index>
-   <end_bl_name>'ep_Inv_3'</end_bl_name>
-   <end_port_index>'2'</end_port_index>
-   <end_x>'128'</end_x>
-   <end_y>'160'</end_y>
-   <parent_wire_index>'-1'</parent_wire_index>
-   <base_points>
-    <type>'26'</type>
-    <value>'[(32 , 168),(32 , 128),(128 , 128),(128 , 160)]'</value>
-   </base_points>
-  </object>
-  <object>
-   <name>'MBTYWire1750'</name>
-   <class_name>'Математическая связь'</class_name>
-   <obj_type>'101'</obj_type>
-   <obj_version>'0'</obj_version>
-   <point_count>'3'</point_count>
-   <visuallayer>'1'</visuallayer>
-   <points>
-    <type>'26'</type>
-    <value>'[(432 , 0),(296 , 0),(296 , 216)]'</value>
-   </points>
-   <color>'0'</color>
-   <visual_props>
-    <data>
-     <name>'Name'</name>
-     <caption>'Имя объекта'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value>'MBTYWire1750'</value>
+     <value>'MBTYWire1745'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -73680,7 +74084,7 @@
      <caption>'Координаты точек'</caption>
      <type>'26'</type>
      <mode>'2'</mode>
-     <value>'[(432 , 0),(296 , 0),(296 , 216)]'</value>
+     <value>'[(312 , 132.8),(312 , 136)]'</value>
      <textvalue></textvalue>
      <fconstant>'0'</fconstant>
      <script></script>
@@ -73990,411 +74394,7 @@
    <branched>'1'</branched>
    <commonprops>'0'</commonprops>
    <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'6'</start_bl_index>
-   <start_bl_name>'L59'</start_bl_name>
-   <start_port_index>'3'</start_port_index>
-   <start_x>'432'</start_x>
-   <start_y>'64'</start_y>
-   <end_bl_index>'9'</end_bl_index>
-   <end_bl_name>'ep_datP_1'</end_bl_name>
-   <end_port_index>'0'</end_port_index>
-   <end_x>'328'</end_x>
-   <end_y>'216'</end_y>
-   <parent_wire_index>'-1'</parent_wire_index>
-   <base_points>
-    <type>'26'</type>
-    <value>'[(432 , 64),(432 , 0),(296 , 0),(296 , 216),(328 , 216)]'</value>
-   </base_points>
-  </object>
-  <object>
-   <name>'MBTYWire1754'</name>
-   <class_name>'Математическая связь'</class_name>
-   <obj_type>'101'</obj_type>
-   <obj_version>'0'</obj_version>
-   <point_count>'2'</point_count>
-   <visuallayer>'1'</visuallayer>
-   <points>
-    <type>'26'</type>
-    <value>'[(324 , 132.8),(324 , 136)]'</value>
-   </points>
-   <color>'0'</color>
-   <visual_props>
-    <data>
-     <name>'Name'</name>
-     <caption>'Имя объекта'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value>'MBTYWire1754'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'ClassName'</name>
-     <caption>'Тип элемента'</caption>
-     <type>'30'</type>
-     <mode>'2'</mode>
-     <value>'Математическая связь'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Hint'</name>
-     <caption>'Подсказка'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'HideHintOnEdit'</name>
-     <caption>'Блокировать подсказку при редактировании'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Visible'</name>
-     <caption>'Видимость при выполнении'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Color'</name>
-     <caption>'Цвет'</caption>
-     <type>'3'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Points'</name>
-     <caption>'Координаты точек'</caption>
-     <type>'26'</type>
-     <mode>'2'</mode>
-     <value>'[(324 , 132.8),(324 , 136)]'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Instance'</name>
-     <caption>'Ссылка'</caption>
-     <type>'29'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'EditInstance'</name>
-     <caption>'Ссылка при редактировании'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'InstanceMode'</name>
-     <caption>'Действие для вывода ссылки'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'Двойной щелчок левой кнопкой'#13'Щелчок левой кнопой'#13'Щелчок правой кнопкой'#13'Alt+левая кнопка мыши'#13'Alt+правая кнопка мыши'#13'Alt+двойной щелчок левой кнопкой'#13'Shift+двойной щелчок левой кнопкой'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Tag'</name>
-     <caption>'Ярлык'</caption>
-     <type>'1'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Template'</name>
-     <caption>'Шаблон автозаполнения'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Layer'</name>
-     <caption>'Номер решателя'</caption>
-     <type>'1'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnInitScript'</name>
-     <caption>'Скрипт инициализации объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnRunScript'</name>
-     <caption>'Скрипт исполнения объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'OnDestroyScript'</name>
-     <caption>'Скрипт уничтожения объекта'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'LockSizes'</name>
-     <caption>'Блокировать изменение размеров'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'MouseIn'</name>
-     <caption>'Указатель в пределах объекта'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Active'</name>
-     <caption>'Активность объекта'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'MayLoadRestart'</name>
-     <caption>'Загружать рестарт'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BlockIndex'</name>
-     <caption>'Индекс блока'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'UID'</name>
-     <caption>'UID'</caption>
-     <type>'4'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'Opacity'</name>
-     <caption>'Коэффициент прозрачности'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'InvisibleProps'</name>
-     <caption>'Список невидимых свойств'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'ReadOnlyProps'</name>
-     <caption>'Список имён свойств для чтения'</caption>
-     <type>'8'</type>
-     <mode>'2'</mode>
-     <value></value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'LineWidth'</name>
-     <caption>'Толщина линии'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue>'1'</textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'PenStyle'</name>
-     <caption>'Стиль линии'</caption>
-     <type>'9'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BorderWidth'</name>
-     <caption>'Толщина границы'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'0'</value>
-     <textvalue>'0'</textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'BorderColor'</name>
-     <caption>'Цвет границы'</caption>
-     <type>'3'</type>
-     <mode>'2'</mode>
-     <value>'16777215'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'StartPointSize'</name>
-     <caption>'Коэффициент увеличения начальной точки линии'</caption>
-     <type>'0'</type>
-     <mode>'2'</mode>
-     <value>'-1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'StartArrowOverride'</name>
-     <caption>'Вид начального порта линии связи'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'EndArrowOverride'</name>
-     <caption>'Вид конечного порта линии связи'</caption>
-     <type>'15'</type>
-     <mode>'2'</mode>
-     <value>
-      <items>'По умолчанию'#13#10'Инверсия'#13#10'Круглый'#13#10'Круглый двойной'#13#10'Треугольный в блок'#13#10'Треугольный из блока'#13#10'Двойной в блок'#13#10'Двойной из блока'#13#10'Крестик'#13#10'Косая черта'#13#10'Квадратный'</items>
-      <index>'0'</index>
-     </value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-    <data>
-     <name>'WireDirected'</name>
-     <caption>'Направленная'</caption>
-     <type>'2'</type>
-     <mode>'2'</mode>
-     <value>'1'</value>
-     <textvalue></textvalue>
-     <fconstant>'0'</fconstant>
-     <script></script>
-    </data>
-   </visual_props>
-   <freeze>'0'</freeze>
-   <active_element>'1'</active_element>
-   <is_child>'0'</is_child>
-   <invisibleprops></invisibleprops>
-   <readonlyprops></readonlyprops>
-   <extmodulname>'$(Root)\mbtylib.dll@wire'</extmodulname>
-   <calctemplate></calctemplate>
-   <helpkeyword></helpkeyword>
-   <helpfile></helpfile>
-   <ownerfilter></ownerfilter>
-   <paramfile></paramfile>
-   <uid></uid>
-   <indexstr></indexstr>
-   <custom_props>
-   </custom_props>
-   <custom_params>
-    <data>
-     <name>'Y'</name>
-     <caption>'Значение'</caption>
-     <type>'5'</type>
-     <mode>'0'</mode>
-     <value>'[0]'</value>
-     <textvalue>'[0]'</textvalue>
-     <fconstant>'2'</fconstant>
-     <script></script>
-    </data>
-   </custom_params>
-   <plugindata>
-    <type>'18'</type>
-    <value>'00000000'</value>
-   </plugindata>
-   <directed>'1'</directed>
-   <branched>'1'</branched>
-   <commonprops>'0'</commonprops>
-   <parentwirenode>'-1'</parentwirenode>
-   <start_bl_index>'36'</start_bl_index>
+   <start_bl_index>'38'</start_bl_index>
    <start_bl_name>'ep_SDSG_6'</start_bl_name>
    <start_port_index>'0'</start_port_index>
    <start_x>'280'</start_x>
@@ -74407,7 +74407,7 @@
    <parent_wire_index>'-1'</parent_wire_index>
    <base_points>
     <type>'26'</type>
-    <value>'[(280 , 132.8),(324 , 132.8),(324 , 136),(368 , 136)]'</value>
+    <value>'[(280 , 132.8),(312 , 132.8),(312 , 136),(368 , 136)]'</value>
    </base_points>
   </object>
   <signal_list>
@@ -74421,9 +74421,9 @@
   <name>'Графики'</name>
  </cat>
  <left>'0'</left>
- <top>'52'</top>
+ <top>'26'</top>
  <right>'300'</right>
- <bottom>'431'</bottom>
+ <bottom>'405'</bottom>
  <visible>'0'</visible>
  <formstyle>'0'</formstyle>
  <winstate>'0'</winstate>
