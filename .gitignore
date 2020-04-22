@@ -1,4 +1,4 @@
-*.mgs.*
-*.mgs
+*dblocalconf
+*.mgr.*
 *.dblocalconf.*
-*.dblocalconf
+*.prt.*

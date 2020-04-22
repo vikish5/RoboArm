@@ -25,8 +25,8 @@ notqueryremoveforall=0
 [Files]
 Count=3
 0=RoboArm1.prt
-1=Угол_СД\CД.prt
-2=Угол_СД\Управление CД.prt
+1=Angle_SE\SE.prt
+2=Angle_SE\Control_SE.prt
 [Active]
 0=1
 1=1
