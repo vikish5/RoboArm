@@ -1,8 +1,8 @@
 ﻿[Form]
-Rect.L=86
-Rect.T=242
-Rect.R=807
-Rect.B=616
+Rect.L=38
+Rect.T=279
+Rect.R=759
+Rect.B=653
 ConsoleHeight=69
 WindowState=0
 ColCount=7
@@ -24,9 +24,9 @@ restartname=
 notqueryremoveforall=0
 [Files]
 Count=3
-0=RoboArm1.prt
-1=Angle_SE\SE.prt
-2=Angle_SE\Control_SE.prt
+0=Angle_SE\Control_SE.xprt
+1=Angle_SE\SE.xprt
+2=RoboArm1.xprt
 [Active]
 0=1
 1=1
