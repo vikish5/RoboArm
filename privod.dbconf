@@ -49,11 +49,11 @@
  <translatecatnames>'1'</translatecatnames>
  <catsortcolumn>'1'</catsortcolumn>
  <catsortdirection>'0'</catsortdirection>
- <groupsortcolumn>'-1'</groupsortcolumn>
+ <groupsortcolumn>'1'</groupsortcolumn>
  <groupsortdirection>'0'</groupsortdirection>
  <listsaddoperation>'0'</listsaddoperation>
- <sigsortcolumn>'2'</sigsortcolumn>
- <sigsortdirection>'0'</sigsortdirection>
+ <sigsortcolumn>'-1'</sigsortcolumn>
+ <sigsortdirection>'1'</sigsortdirection>
  <globalfilteritemindex>'-1'</globalfilteritemindex>
  <globfilter>
   <name>'Все по умолчанию'</name>
@@ -86,12 +86,12 @@
   <sigsortcol>'-1'</sigsortcol>
   <sigsortdir>'0'</sigsortdir>
  </globfilter>
- <formleft>'-343'</formleft>
- <formtop>'6'</formtop>
- <formright>'962'</formright>
- <formbottom>'719'</formbottom>
+ <formleft>'-141'</formleft>
+ <formtop>'290'</formtop>
+ <formright>'1164'</formright>
+ <formbottom>'1003'</formbottom>
  <formstate>'0'</formstate>
- <formactivemainpage>'1'</formactivemainpage>
+ <formactivemainpage>'0'</formactivemainpage>
  <formactivepage>'0'</formactivepage>
  <formvisible>'0'</formvisible>
 </dbconfig>
