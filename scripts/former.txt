@@ -1,0 +1,118 @@
+﻿input  _flag[5], _Sset[5], _Sreal[5], as, Vs, _stop[5];     // S заданое,  S реальное,  константы: заданное а, заданная V
+output out_[5], out_S[5], out_V[5], out_a[5];
+
+var  s0[5]:double = [0, 0, 0, 0, 0]; // начальная позиция
+var  s1[5]:double = [0, 0, 0, 0, 0]; // конечная позиция
+var status[5]:double = [0, 0, 0, 0, 0]; // позиция отработана
+var Torm[5]:double = [0, 0, 0, 0, 0]; // торможение
+var a[5], V[5], S[5], ds[5],snt[5],skt[5]:double = [0, 0, 0, 0, 0]; // ускорение, скорость, текущее значение траектории, длина отрабатываемой траектории
+
+
+function Former(idx, flag, Sset, Sreal, as, Vs, stop, out out_, out out_S, out out_V, out out_a) 
+Svmax  =  (Vs*Vs)/(2*as); // граница переключения типа траектории (с огр. и без огр. скорости)
+Vstop  =  Vs/100; // скорость прекращения генерации траектории
+
+out_[idx] = status[idx];    // вывод статуса    (1-отработка траектории)
+out_a[idx] = a[idx];       // вывод ускорения
+out_V[idx] = V[idx];       // вывод скорости
+out_S[idx] = S[idx];       // вывод  положения
+//-----------------------------------------------------------
+
+	 sfb=Sreal[idx];
+	 s1[idx] = Sset[idx];
+	 changing = flag[idx];
+	if (stop[idx] = 1) then      //Аварийная остановка
+		begin
+			status[idx] = 0;
+			V[idx] = 0;
+			Torm[idx] = 1;
+			goto lable_2
+		end 
+	else
+			begin
+				 if (changing = 0) then      //проверка постоянства заданного угла
+				 	begin
+						 if (status[idx] = 1) then  goto  lable_1   // переход  на генерацию траектории
+							 else
+						
+						// ПРОВЕРКА ЗАДАНИЯ	
+						if (s0[idx] = s1[idx])  then     // текущее задание равно предыдущему
+						begin
+								 status[idx] = 0;
+								 goto lable_end
+						end  	 
+							 else
+							status[idx] = 1;   // установка статуса генерации траектории
+					end
+					else 
+						begin
+							status[idx] = 0;
+							V[idx] = 0;
+							goto lable_2
+						end;
+			end;
+					
+		
+	//ПОЛУЧЕНИЕ ПЕРЕМЕННЫХ НЕОБХОДИМЫХ ДЛЯ ОТРАБОТКИ ТРАЕКТОРИИ
+	snt[idx] = sfb;//  запоминатие начальной точки траектории
+	skt[idx] = Sset[idx];   //  запоминание конечной точки траектории
+	ds[idx] = s1[idx] - s0[idx]; // вычисление длины траектории
+	
+	//---------------------------------------------------------
+	
+	lable_1:      // МЕТКА ГЕНЕРАЦИИ ТРАЕТОРИИ
+	//ВЫБОР ТИПА ТРАЕКТОРИИ 	
+	if  (abs(ds[idx])  < (2*Svmax)) then
+	begin         // траектория без ограничения скорости
+			 if (abs(s1[idx] - S[idx]) >= abs(ds[idx]/2)) then
+			 begin
+			 a[idx]= sign(ds[idx])*as;
+			 goto  lable_2
+			 end
+			    else
+			 a[idx]= -sign(ds[idx])*as;
+			 Torm[idx] = 1;
+			 goto lable_2
+	end
+	    else
+			goto lable_3  // переход на траекторию с ограничением скорости
+	
+	lable_3:   //траектория с ограничением скорости
+	 if abs(S[idx]-snt[idx]) < Svmax then
+			 begin
+			 a[idx]= sign(ds[idx])*as;
+			 goto  lable_2
+			 end
+			    else
+					  if abs(skt[idx]-S[idx]) < Svmax then
+					  begin
+						 a[idx] = -sign(ds[idx])*as;
+						 Torm[idx] = 1;
+					   goto lable_2
+						end
+							 else
+		             a[idx] = 0;
+		
+	lable_2:     // метка проверки условий конца траектории
+	
+	if ((abs(V[idx]) < Vstop) and (Torm[idx]=1))  then
+	begin
+		status[idx] = 0;
+		s0[idx] = s1[idx];
+		S[idx]=s1[idx];
+		V[idx] = 0;
+		a[idx] = 0;
+		Torm[idx] = 0;
+	end
+			else
+	
+	lable_end:
+	
+	if goodstep then V[idx] = V[idx] + a[idx] * stepsize; 
+	if goodstep then S[idx] = S[idx] + V[idx] * stepsize;
+	
+	;
+end;
+
+for (i = 1,5)
+	Former(i, _flag, _Sset, _Sreal, as, Vs, _stop, out_, out_S, out_V, out_a);

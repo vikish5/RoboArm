@@ -49,7 +49,7 @@
  <showhints>'1'</showhints>
  <notbringfrontselected>'0'</notbringfrontselected>
  <tabs>
-  <visible>'1'</visible>
+  <visible>'0'</visible>
   <index>'0'</index>
  </tabs>
  <rststep>'1'</rststep>
@@ -20023,7 +20023,7 @@
    <name>'TextLabel157'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -20377,7 +20377,7 @@
    <name>'TextLabel158'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -20731,7 +20731,7 @@
    <name>'TextLabel169'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21085,7 +21085,7 @@
    <name>'TextLabel170'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21439,7 +21439,7 @@
    <name>'TextLabel171'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -21793,7 +21793,7 @@
    <name>'TextLabel172'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22147,7 +22147,7 @@
    <name>'TextLabel173'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22501,7 +22501,7 @@
    <name>'TextLabel174'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -22855,7 +22855,7 @@
    <name>'TextLabel175'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -23613,7 +23613,7 @@
    <name>'TextLabel176'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -23967,7 +23967,7 @@
    <name>'TextLabel177'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
@@ -26274,7 +26274,7 @@
       <name>'TextLabel'</name>
       <class_name>'TextLabel'</class_name>
       <obj_type>'20'</obj_type>
-      <obj_version>'4'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -26628,7 +26628,7 @@
       <name>'TextLabel1'</name>
       <class_name>'TextLabel'</class_name>
       <obj_type>'20'</obj_type>
-      <obj_version>'4'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -26982,7 +26982,7 @@
       <name>'Circle'</name>
       <class_name>'Circle'</class_name>
       <obj_type>'7'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'2'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -28591,7 +28591,7 @@
         <name>'FillCircle'</name>
         <class_name>'FillCircle'</class_name>
         <obj_type>'8'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -28872,7 +28872,7 @@
         <name>'FillRect'</name>
         <class_name>'FillRect'</class_name>
         <obj_type>'6'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -29206,7 +29206,7 @@
         <name>'C_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -29454,7 +29454,7 @@
         <name>'C_line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -29702,7 +29702,7 @@
         <name>'C_Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -29950,7 +29950,7 @@
         <name>'C_Line4'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30198,7 +30198,7 @@
         <name>'L_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30446,7 +30446,7 @@
         <name>'L_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30694,7 +30694,7 @@
         <name>'L_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -30942,7 +30942,7 @@
         <name>'L_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31190,7 +31190,7 @@
         <name>'L_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31438,7 +31438,7 @@
         <name>'RLC_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31686,7 +31686,7 @@
         <name>'RLC_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -31934,7 +31934,7 @@
         <name>'RLC_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32182,7 +32182,7 @@
         <name>'RLC_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32430,7 +32430,7 @@
         <name>'RLC_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32678,7 +32678,7 @@
         <name>'E_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -32926,7 +32926,7 @@
         <name>'E_Polygon'</name>
         <class_name>'Polygon'</class_name>
         <obj_type>'2'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33227,7 +33227,7 @@
         <name>'I_Line1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33475,7 +33475,7 @@
         <name>'I_Line2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33723,7 +33723,7 @@
         <name>'RSH_PL1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'8'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -33971,7 +33971,7 @@
         <name>'RSH_PL2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34219,7 +34219,7 @@
         <name>'RLC_PR'</name>
         <class_name>'RoundPolyLine'</class_name>
         <obj_type>'40'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -34467,7 +34467,7 @@
         <name>'KeyLine'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -35324,7 +35324,7 @@
         <name>'PolyLine4'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -35572,7 +35572,7 @@
         <name>'PolyLine6'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -35820,7 +35820,7 @@
         <name>'PolyLine7'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -36068,7 +36068,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -36316,7 +36316,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -37864,7 +37864,7 @@
        <inversebyte>'0'</inversebyte>
        <center>'0'</center>
        <x_glob>'280'</x_glob>
-       <y_glob>'-96'</y_glob>
+       <y_glob>'-96.0000000000001'</y_glob>
        <clonable>'0'</clonable>
        <allsurface>'0'</allsurface>
        <portisoff>'0'</portisoff>
@@ -37902,7 +37902,7 @@
         <name>'FillCircle'</name>
         <class_name>'FillCircle'</class_name>
         <obj_type>'8'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -38183,7 +38183,7 @@
         <name>'FillRect'</name>
         <class_name>'FillRect'</class_name>
         <obj_type>'6'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -38517,7 +38517,7 @@
         <name>'C_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -38765,7 +38765,7 @@
         <name>'C_line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39013,7 +39013,7 @@
         <name>'C_Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39261,7 +39261,7 @@
         <name>'C_Line4'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39509,7 +39509,7 @@
         <name>'L_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -39757,7 +39757,7 @@
         <name>'L_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40005,7 +40005,7 @@
         <name>'L_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40253,7 +40253,7 @@
         <name>'L_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40501,7 +40501,7 @@
         <name>'L_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40749,7 +40749,7 @@
         <name>'RLC_Arc1'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -40997,7 +40997,7 @@
         <name>'RLC_Arc2'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41245,7 +41245,7 @@
         <name>'RLC_Arc3'</name>
         <class_name>'Arc'</class_name>
         <obj_type>'24'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41493,7 +41493,7 @@
         <name>'RLC_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41741,7 +41741,7 @@
         <name>'RLC_Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -41989,7 +41989,7 @@
         <name>'E_Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42237,7 +42237,7 @@
         <name>'E_Polygon'</name>
         <class_name>'Polygon'</class_name>
         <obj_type>'2'</obj_type>
-        <obj_version>'15'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42538,7 +42538,7 @@
         <name>'I_Line1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -42786,7 +42786,7 @@
         <name>'I_Line2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43034,7 +43034,7 @@
         <name>'RSH_PL1'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'8'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43282,7 +43282,7 @@
         <name>'RSH_PL2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43530,7 +43530,7 @@
         <name>'RLC_PR'</name>
         <class_name>'RoundPolyLine'</class_name>
         <obj_type>'40'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'15'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -43778,7 +43778,7 @@
         <name>'KeyLine'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'1'</visuallayer>
         <points>
@@ -45333,7 +45333,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -45581,7 +45581,7 @@
         <name>'TextLabel'</name>
         <class_name>'TextLabel'</class_name>
         <obj_type>'20'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -45935,7 +45935,7 @@
         <name>'Line1'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -46183,7 +46183,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -46431,7 +46431,7 @@
         <name>'Line3'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -46679,7 +46679,7 @@
         <name>'PolyLine2'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -46927,7 +46927,7 @@
         <name>'PolyLine3'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -49944,7 +49944,7 @@
           <name>'PolyLine2'</name>
           <class_name>'PolyLine'</class_name>
           <obj_type>'1'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'3'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -50192,7 +50192,7 @@
           <name>'Line'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -50440,7 +50440,7 @@
           <name>'L1'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -50688,7 +50688,7 @@
           <name>'PolyLine3'</name>
           <class_name>'PolyLine'</class_name>
           <obj_type>'1'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'3'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -50936,7 +50936,7 @@
           <name>'Line3'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -51184,7 +51184,7 @@
           <name>'Text'</name>
           <class_name>'RotatedText'</class_name>
           <obj_type>'29'</obj_type>
-          <obj_version>'4'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'1'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -51548,7 +51548,7 @@
           <name>'L2'</name>
           <class_name>'Line'</class_name>
           <obj_type>'0'</obj_type>
-          <obj_version>'7'</obj_version>
+          <obj_version>'0'</obj_version>
           <point_count>'2'</point_count>
           <visuallayer>'0'</visuallayer>
           <points>
@@ -54442,7 +54442,7 @@
         <name>'Line'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -54690,7 +54690,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -54938,7 +54938,7 @@
         <name>'TextLabel'</name>
         <class_name>'TextLabel'</class_name>
         <obj_type>'20'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -56583,11 +56583,11 @@
      <end_bl_name>'R5'</end_bl_name>
      <end_port_index>'2'</end_port_index>
      <end_x>'280'</end_x>
-     <end_y>'-96'</end_y>
+     <end_y>'-96.0000000000001'</end_y>
      <parent_wire_index>'-1'</parent_wire_index>
      <base_points>
       <type>'26'</type>
-      <value>'[(240 , -96),(280 , -96)]'</value>
+      <value>'[(240 , -96),(280 , -96.0000000000001)]'</value>
      </base_points>
     </object>
     <object>
@@ -58383,7 +58383,7 @@
         <name>'Text'</name>
         <class_name>'RotatedText'</class_name>
         <obj_type>'29'</obj_type>
-        <obj_version>'4'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'1'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -58747,7 +58747,7 @@
         <name>'PolyLine4'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -58995,7 +58995,7 @@
         <name>'Line2'</name>
         <class_name>'Line'</class_name>
         <obj_type>'0'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'2'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -59243,7 +59243,7 @@
         <name>'PolyLine5'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -59491,7 +59491,7 @@
         <name>'PolyLine6'</name>
         <class_name>'PolyLine'</class_name>
         <obj_type>'1'</obj_type>
-        <obj_version>'7'</obj_version>
+        <obj_version>'0'</obj_version>
         <point_count>'3'</point_count>
         <visuallayer>'0'</visuallayer>
         <points>
@@ -63956,7 +63956,7 @@
       <name>'PolyLine1'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -64204,7 +64204,7 @@
       <name>'PolyLine2'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -64452,7 +64452,7 @@
       <name>'PolyLine3'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -64700,7 +64700,7 @@
       <name>'PolyLine4'</name>
       <class_name>'PolyLine'</class_name>
       <obj_type>'1'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'9'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -65364,7 +65364,7 @@
       <name>'Arc'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -65612,7 +65612,7 @@
       <name>'Arc1'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -65860,7 +65860,7 @@
       <name>'Arc2'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66108,7 +66108,7 @@
       <name>'Arc3'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66356,7 +66356,7 @@
       <name>'Arc4'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -66604,7 +66604,7 @@
       <name>'Arc5'</name>
       <class_name>'Arc'</class_name>
       <obj_type>'24'</obj_type>
-      <obj_version>'7'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'3'</point_count>
       <visuallayer>'0'</visuallayer>
       <points>
@@ -68078,7 +68078,7 @@
       <name>'TextLabel'</name>
       <class_name>'TextLabel'</class_name>
       <obj_type>'20'</obj_type>
-      <obj_version>'4'</obj_version>
+      <obj_version>'0'</obj_version>
       <point_count>'1'</point_count>
       <visuallayer>'1'</visuallayer>
       <points>
@@ -72848,7 +72848,7 @@
    <name>'TextLabel'</name>
    <class_name>'TextLabel'</class_name>
    <obj_type>'20'</obj_type>
-   <obj_version>'4'</obj_version>
+   <obj_version>'0'</obj_version>
    <point_count>'1'</point_count>
    <visuallayer>'1'</visuallayer>
    <points>
